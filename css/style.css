@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+/* header */
+.header {
+    /* background-color: aquamarine; */
+
+}
+
+.header .banner {
+    height: 40px;
+    background-color: aqua;
+}
+
+.header .banner ul {
+    height: 100%;
+
+}
+
+.header .banner ul li {
+    height: 100%;
+    background-color: #FFDE00;
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+/* 헤더 이너 */
+.header .header_inner {
+    width: 1280px;
+    /* background-color: beige; */
+    margin: 0 auto;
+}
+
+.header .header_inner .member {
+    margin-top: 20px;
+}
+
+.header .header_inner .member ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .header_inner .member ul li:first-child {
+    border-right: 1px solid #888;
+    margin-right: 14px;
+    padding-right: 14px;
+}
+
+.header .header_inner .site_wrap {
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header_inner .site_wrap .left {
+    display: flex;
+    gap: 40px;
+    /* 로고와 간격 */
+}
+
+.header .header_inner .site_wrap .left .logo {}
+
+.header .header_inner .site_wrap .left .logo img {}
+
+.header .header_inner .site_wrap .left .nav {}
+
+.header .header_inner .site_wrap .left .gnb {
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.header .header_inner .site_wrap .left .gnb li {}
+
+.header .header_inner .site_wrap .left .gnb li a {}
+
+.header .header_inner .site_wrap .right {}
+
+.header .header_inner .site_wrap .right ul {
+    display: flex;
+    gap: 14px;
+
+}
+
+.header .header_inner .site_wrap .right ul li {
+    height: 30px;
+}
+
+.header .header_inner .site_wrap .right ul li img {
+    height: 25px;
+}
+
+
+.header .header_inner .site_wrap .right ul li.search {
+    position: relative;
+}
+
+.header .header_inner .site_wrap .right ul li.search input {
+    height: 100%;
+    width: 210px;
+    border-radius: 30px;
+    border: 1px solid #dedede;
+}
+
+.header .header_inner .site_wrap .right ul li.search img {
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    transform: translate(0, -50%);
+}
+
+/* .main_visual */
+.main_visual {
+    height: 800px;
+    position: relative;  
+}
+
+.main_visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.main_visual .text {
+    width: 1280px;
+    
+    /* background-color: #ffdd0069; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    
+   
+}
+
+.main_visual .text p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.main_visual .text h2 {
+    font-size: 35px;
+    
+}
+
+.main .section-01{
+    width: 1280px;
+    position: relative;
+   
+    margin: 0 auto;
+}
+.main .section-01 .site_wrap{
+   margin: 100px 0;
+   
+}
+.main .section-01 .text{
+    width: 100%;
+    height: 79px;
+    text-align: center;
+    margin: 0 0 34px;
+
+}
+.main .section-01 .text h3{
+    font-size: 33px;
+    color: #000;
+    font-weight: bold;
+}
+.main .section-01 .text p{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+   
+
+}
+.main .section-01 .item_wrap{
+    display: flex;
+    justify-content: center
+}
+.main .section-01 .item_wrap .item{
+    
+    width: 134px;
+    height: 48px;
+    background-color: #F1F1F1;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0 10px;
+    border-radius: 30px;
+    padding: 12px 20px;
+    text-align: center;
+    
+}
+.main .section-01 .item_wrap .item a{
+
+}
+
+/* section-02 */
+.section-02{
+    width: 100%;
+    height: 730px;
+    background-color: #F5F5F5;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-bottom: 120px;
+}
+.section-02 .wrap{
+    width: 100%;
+    height: 620px;
+}
+.section-02 .wrap .text{
+    width: 100%;
+    height: 79px;
+    text-align: center;
+}
+.section-02 .wrap .text h1{
+    font-size: 33px;
+}
+.section-02 .wrap .text p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.section-02 .wrap .wrap_item{
+   
+    height: 507px;
+    display: flex;
+    justify-content: center;
+  
+
+}
+.section-02 .wrap .wrap_item .item{
+    width: 320px;
+    height: 435px;
+    position: relative;
+    margin: 0 0 40px;
+    gap: 4px;
+}
+.section-02 .wrap .wrap_item .item img{
+    width: 292px;
+    height: 292px;
+    
+}
+.section-02 .wrap .wrap_item .item .box{
+    width: 58px;
+    height: 58px;
+
+    background-color: #831ede;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    
+ 
+
+}
+.section-02 .wrap .wrap_item .item .box .box_text{
+    width: 58px;
+    height: 58px;
+    margin-top: 8px;
+    color: white;
+}
+.section-02 .wrap .wrap_item .item .description{
+    margin: 14px 14px 0;
+}
+.section-02 .wrap .wrap_item .item .description h1{
+    font-size: 19px;
+}
+.section-02 .wrap .wrap_item .item .description span:nth-of-type(1){
+    font-size: 15px;
+    color: #AAA;
+    text-decoration-line: line-through;
+}
+.section-02 .wrap .wrap_item .item .description span:nth-of-type(2){
+    font-size: 20px;
+    color: #000;
+}
+.section-02 .wrap .wrap_item .item .description span:nth-of-type(3){
+    font-size: 22px;
+    color: red;
+    padding-left: 6px;
+}
+.section-02 .wrap .wrap_item .item .description span:nth-of-type(4){
+    font-size: 12px;
+    color: #555;
+}
+
+/* section-03 */
+.section-03{
+    height: 200px;
+    padding-bottom: 240px
+}
+.section-03 .image{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* .section-04 */
+.section-04{
+    width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+}
+.section-04 .wrap{
+    width: 100%;
+    height: 186px;
+    background-color: #F3F3F3;
+    
+}
+.section-04 .wrap h3{
+    text-align: center;
+    
+}
